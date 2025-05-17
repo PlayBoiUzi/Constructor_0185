@@ -32,4 +32,5 @@ void mahasiswa::printAll() {
 int main() {
     mahasiswa mhs1("Sri Dadi");
     mahasiswa mhs2("Budi Jatmiko");
+    mahasiswa::setNim(9); // mengakses nim melalui static member function “setNim”
     
